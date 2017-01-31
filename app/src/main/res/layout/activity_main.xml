@@ -87,7 +87,7 @@
                 android:gravity="center"
                 android:layout_weight="12"
                 android:background="@android:color/white"
-                android:text="Dah!"
+                android:text="Dah"
                 android:textSize="144dp"
                 />
 
