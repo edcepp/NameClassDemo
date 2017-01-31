@@ -12,9 +12,6 @@ public class MainActivity extends Activity {
 private TextView advise;
 private Button panicButton;
 
-
-
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -22,7 +19,7 @@ private Button panicButton;
         advise = (TextView)findViewById(R.id.advise);
         panicButton  = (Button)findViewById(R.id.PanicButton);
         panicButton.setOnClickListener(new PanicButtonListener());
-        /*
+         /*
         b.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {}
@@ -34,6 +31,7 @@ private Button panicButton;
         public void onClick(View v)
         {
             advise.setTextColor(Color.RED);
+            advise.setText("NO");
         }
     }
 
